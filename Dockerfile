@@ -1,8 +1,8 @@
-FROM jenkins/jenkins:alpine
+FROM tuanbui11/jenkins:latest
 USER root
 
 # set version label
-LABEL maintainer="Ajeet Raina"
+LABEL maintainer="tuanbui11-updated-Dockerfile"
 
 # Install the latest Docker CE binaries
 RUN \
