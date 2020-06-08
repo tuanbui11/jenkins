@@ -12,8 +12,8 @@ apk add --no-cache \
 echo "**** cleanup ****" && \
 rm -rf \
     /tmp/*
-RUN cp jenkins.war ./
-#RUN wget http://updates.jenkins-ci.org/download/war/2.240/jenkins.war
+#RUN cp jenkins.war ./
+RUN wget http://updates.jenkins-ci.org/download/war/2.240/jenkins.war
 RUN mv ./jenkins.war /usr/share/jenkins
 RUN chown jenkins:jenkins /usr/share/jenkins/jenkins.war
 # set default user
