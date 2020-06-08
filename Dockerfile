@@ -1,4 +1,4 @@
-FROM tuanbui11/jenkins:latest
+FROM tuanbui11/jenkins
 USER root
 
 # set version label
