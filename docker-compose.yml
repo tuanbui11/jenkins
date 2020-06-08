@@ -3,8 +3,8 @@ version: "3.0"
 services:
 
   jenkins:
-    image: tuanbui11/jenkins
-    container_name: jenkins
+    image: jenkins-v240
+    container_name: jenkins-v240
     ports:
       - "8080:8080"
     volumes:
